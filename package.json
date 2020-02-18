@@ -1,0 +1,19 @@
+{
+  "name": "babel-study",
+  "version": "1.0.0",
+  "description": "I'm studying babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnarAgaev/Babel-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnarAgaev/Babel-study/issues"
+  },
+  "homepage": "https://github.com/AnarAgaev/Babel-study#readme"
+}
