@@ -1,13 +1,6 @@
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-class App {
-  constructor() {
-    _defineProperty(this, "run", async (name = 'World') => {
-      console.log(`Hello ${name}`);
-    });
-  }
+const App = () => React.createElement("p", null, "Hello");
 
-}
-
-const app = new App();
-app.run().then(() => console.log('Done.')).catch(() => console.log('Error!'));
+ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
