@@ -1,21 +1,21 @@
 {
   "name": "babel-study",
   "version": "1.0.0",
-  "description": "I'm studying babel",
+  "description": "I'm studying Babel and Webpack for initial React projects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnarAgaev/Babel-study.git"
+    "url": "git+https://github.com/AnarAgaev/Babel-and-Webpack.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnarAgaev/Babel-study/issues"
+    "url": "https://github.com/AnarAgaev/Babel-and-Webpack/issues"
   },
-  "homepage": "https://github.com/AnarAgaev/Babel-study#readme",
+  "homepage": "https://github.com/AnarAgaev/Babel-and-Webpack#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
