@@ -7,28 +7,19 @@ module.exports = {
       {
         test: /\.m?js$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        }
+        loader: 'babel-loader'
       },
       // Loading CSS
       {
         test: /\.(css)$/,
         exclude: /node_modules/,
-        use: [
-          {loader: "style-loader"},
-          {loader: 'css-loader'}
-        ]
+        use: ['style-loader',  'css-loader']
       },
       // Loading SASS/SCSS
       {
         test: /\.(scss|sass)$/,
         exclude: /node_modules/,
-        use: [
-          {loader: "style-loader"},
-          {loader: 'css-loader'},
-          {loader: 'sass-loader'}
-        ]
+        use: ['style-loader', 'css-loader', 'sass-loader']
       },
       // Loading images
       {
