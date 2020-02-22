@@ -3,7 +3,7 @@ module.exports = {
 
   module: {
     rules: [
-
+      // JS
       {
         test: /\.m?js$/,
         exclude: /node_modules/,
@@ -11,7 +11,25 @@ module.exports = {
           loader: 'babel-loader',
         }
       },
-
+      // Loading CSS
+      {
+        test: /\.(css)$/,
+        exclude: /node_modules/,
+        use: [
+          {loader: "style-loader"},
+          {loader: 'css-loader'}
+        ]
+      },
+      // Loading SASS/SCSS
+      {
+        test: /\.(scss|sass)$/,
+        exclude: /node_modules/,
+        use: [
+          {loader: "style-loader"},
+          {loader: 'css-loader'},
+          {loader: 'sass-loader'}
+        ]
+      },
       // Loading images
       {
         test: /\.(png|jpg|jpeg|gif|ico)$/,
