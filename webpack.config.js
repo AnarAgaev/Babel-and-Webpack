@@ -1,3 +1,5 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   mode: "development",
 
@@ -48,5 +50,13 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
+
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'Hello world',
+      buildTime: new Date().toDateString(),
+      template: 'public/index.html'
+    })
+  ]
 };
